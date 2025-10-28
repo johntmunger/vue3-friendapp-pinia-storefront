@@ -1,11 +1,11 @@
 <script setup>
-import TheWelcome from './components/TheWelcome.vue';
+import MyFriends from './components/MyFriends.vue';
 </script>
 
 <template>
-  <div class="dark:bg-gray-800">
-    <TheWelcome />
-  </div>
+  <main>
+    <MyFriends />
+  </main>
 </template>
 
 <style scoped></style>
