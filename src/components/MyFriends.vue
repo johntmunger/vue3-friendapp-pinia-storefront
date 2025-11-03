@@ -1,9 +1,11 @@
-<script setup></script>
+<script setup>
+import Input from './ui/input/Input.vue';
+</script>
 
 <template>
-  <nav class="h-16 border-b flex px-6 items-center">
-    <div class="w-full max-w-96">
-      <div class="w-full pl-8 bg-background">Put components here</div>
-    </div>
-  </nav>
+  <div class="h-16 border-b bg-muted/40 flex justify-center items-center">
+    <form class="w-full max-w-96 self">
+      <Input class="w-full pl-4 bg-background" />
+    </form>
+  </div>
 </template>
