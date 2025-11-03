@@ -6,7 +6,7 @@ export const friendStore = defineStore('friends', {
   }),
 
   actions: {
-    makeFriend(name) {
+    addFriend(name) {
       this.names.push(name);
     },
   },
