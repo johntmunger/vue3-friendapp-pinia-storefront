@@ -37,7 +37,7 @@ function addFriend() {
     </div>
 
     <div class="border-b flex justify-center items-center">
-      <div class="pl-8 pb-6 w-full self max-w-115">
+      <div class="pl-10 pb-6 w-full self max-w-115">
         <ul class="items-center self">
           <li v-for="(name, i) in friends.names" :key="i">
             {{ name }}<span v-if="i < friends.names.length - 1">, </span>
