@@ -20,7 +20,8 @@ const friends = friendStore();
 </template>
 
 <style>
-main {
+main,
+main > nav {
   color: #ccc;
   font-size: 0.875rem;
 }
