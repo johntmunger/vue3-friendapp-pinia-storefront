@@ -1,6 +1,6 @@
-# Vuejs3 Composition API (without TypeScript)
+# Vuejs 3 Composition API with Pinia Storefront
 
-Reactive State MVP application using `{ref}` and the Pina Storefront. This version does not have TypeScript support in the codebase.
+Reactive State friend application using `{ref}` and Pina Storefront. No TypeScript: this project is purely JavaScript and does not utilize TypeScript's type system. TypeScript's compiler (tsc) is not needed.
 
 ## Recommended IDE Setup
 
